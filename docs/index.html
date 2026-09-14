@@ -1,0 +1,200 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>SFO ⇄ Mexico City Round Trip</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>✈️</text></svg>">
+<style>
+:root {
+  --bg: #f6f4ef; --surface: #ffffff; --ink: #1d1b18; --muted: #6b665d; --line: #e4dfd5;
+  --accent: #0f6b5c; --accent-soft: #e2f1ed; --warn: #a3471b; --warn-soft: #fbeae1;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #151412; --surface: #1f1d1a; --ink: #eeebe4; --muted: #9d978c; --line: #33302b;
+    --accent: #5cc4ae; --accent-soft: #17332d; --warn: #f0976a; --warn-soft: #3a2218;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #151412; --surface: #1f1d1a; --ink: #eeebe4; --muted: #9d978c; --line: #33302b;
+  --accent: #5cc4ae; --accent-soft: #17332d; --warn: #f0976a; --warn-soft: #3a2218;
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0; background: var(--bg); color: var(--ink);
+  font: 15px/1.45 system-ui, -apple-system, "Segoe UI", sans-serif;
+  padding-inline: 16px;
+}
+main { max-width: 900px; margin: 0 auto; padding-block: 28px 60px; }
+h1 { font-size: clamp(1.5rem, 4vw, 2.1rem); margin: 0; letter-spacing: -0.02em; }
+header p { margin: 6px 0 0; color: var(--muted); }
+.status {
+  display: inline-flex; align-items: center; gap: 8px; margin-top: 14px;
+  padding: 5px 12px; border-radius: 999px; background: var(--accent-soft);
+  color: var(--accent); font: 600 13px/1.4 inherit; border: 0; cursor: pointer;
+}
+.status::before { content: ""; width: 7px; height: 7px; border-radius: 50%; background: currentColor; }
+.status.stale { background: var(--warn-soft); color: var(--warn); }
+
+h2 { font-size: 1.05rem; margin: 34px 0 10px; display: flex; gap: 10px; align-items: baseline; flex-wrap: wrap; }
+h2 small { font-weight: 400; color: var(--muted); font-size: 13px; }
+h2 a { margin-left: auto; font-size: 13px; font-weight: 500; color: var(--accent); }
+.list { background: var(--surface); border: 1px solid var(--line); border-radius: 12px; overflow: hidden; }
+.row { border-top: 1px solid var(--line); padding: 13px 16px; color: inherit; text-decoration: none; display: grid; gap: 4px 18px; align-items: center; }
+.row:first-child { border-top: 0; }
+a.row:hover { background: color-mix(in srgb, var(--accent-soft) 45%, transparent); }
+
+/* Fixed price column, so "Back" lines up whatever the fare label's width. */
+.combo { grid-template-columns: 1fr 1fr 190px; }
+.leg small { display: block; font-size: 12px; color: var(--muted); }
+.times { font-weight: 650; font-variant-numeric: tabular-nums; white-space: nowrap; }
+.times sup { font-size: 11px; color: var(--warn); font-weight: 600; margin-left: 1px; }
+.arrow { color: var(--muted); font-weight: 400; margin: 0 5px; }
+.price { text-align: right; font-variant-numeric: tabular-nums; }
+.price strong { font-size: 1.1rem; display: block; }
+.price span { font-size: 12px; color: var(--muted); }
+.price .basic { display: block; font-size: 11px; }
+.best .price strong { color: var(--accent); }
+.tag { font-size: 11px; font-weight: 600; color: var(--accent); background: var(--accent-soft); padding: 1px 6px; border-radius: 6px; margin-left: 6px; }
+.more { display: block; width: 100%; border: 0; border-top: 1px solid var(--line); background: none; color: var(--accent); font: 500 14px/1 inherit; padding: 12px; cursor: pointer; }
+
+.legs { display: grid; grid-template-columns: 1fr 1fr; gap: 0 18px; }
+.flight { grid-template-columns: 1fr auto; }
+.flight .times { font-size: 1.05rem; }
+.meta { color: var(--muted); font-size: 13px; }
+.meta b { color: var(--ink); font-weight: 550; }
+
+.note { padding: 14px 16px; color: var(--muted); }
+.banner { margin-top: 18px; padding: 10px 14px; border-radius: 10px; background: var(--warn-soft); color: var(--warn); font-size: 14px; }
+footer { margin-top: 40px; color: var(--muted); font-size: 13px; }
+footer p { margin: 6px 0; }
+@media (max-width: 680px) {
+  .legs { grid-template-columns: 1fr; }
+  .combo { grid-template-columns: 1fr auto; }
+  .combo .leg.back { grid-row: 2; }
+  .combo .price { grid-row: 1 / span 2; grid-column: 2; }
+}
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <h1>SFO ⇄ Mexico City</h1>
+    <p id="sub">Round trip · nonstop both ways · 1 adult · cheapest fare, Basic included</p>
+    <button class="status" id="status" title="Check for new data now">Loading…</button>
+  </header>
+  <div id="app"></div>
+  <footer>
+    <p>Prices are per adult for the whole round trip, sold by the airline, taxes included — the cheapest fare on each ticket, Basic included (United Basic Economy has no carry-on bag). Tap a pairing for its live booking options.</p>
+    <p>Times are local: Pacific in San Francisco, Central in Mexico City. <sup style="color:var(--warn)">+1</sup> arrives the next day.</p>
+    <p>Searched on Google Flights every 2 hours by GitHub Actions. This page checks for new results every 5 minutes.</p>
+  </footer>
+</main>
+<script>
+const $ = (id) => document.getElementById(id);
+const esc = (s) => String(s ?? "").replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" })[c]);
+const money = (n) => "$" + n.toLocaleString("en-US");
+const dayName = (d, o) => new Date(d + "T12:00:00").toLocaleDateString("en-US", o);
+let data = null, shown = null, showAll = false;
+
+function ago(iso) {
+  const min = Math.round((Date.now() - new Date(iso)) / 60000);
+  if (min < 1) return "just now";
+  if (min < 60) return `${min} min ago`;
+  const h = Math.floor(min / 60), m = min % 60;
+  return m ? `${h} h ${m} min ago` : `${h} h ago`;
+}
+const times = (f) => `${esc(f.depart)}<span class="arrow">→</span>${esc(f.arrive)}${f.arrive_day_offset ? `<sup>+${f.arrive_day_offset}</sup>` : ""}`;
+
+function render() {
+  shown = data.generated_at;
+  const outDay = dayName(data.out_date, { weekday: "short", month: "short", day: "numeric" });
+  const backDay = dayName(data.return_date, { weekday: "short", month: "short", day: "numeric" });
+  $("sub").innerHTML = `Round trip · <b>${outDay} → ${backDay}, 2027</b> · nonstop both ways · 1 adult · cheapest fare, Basic included`;
+  updateStatus();
+
+  const byId = Object.fromEntries([...data.outbound, ...data.return].map((f) => [f.id, f]));
+  const priced = data.combos.filter((c) => c.fare);
+  const low = priced.length ? priced[0].fare.price : null;
+  let html = "";
+
+  if (data.status === "error") {
+    html += `<div class="banner">The last search failed (${esc(data.error)}). ${data.last_success_at ? `Showing results from ${ago(data.last_success_at)}.` : "It retries every 2 hours."}</div>`;
+  }
+
+  const LIMIT = 6;
+  const list = showAll ? data.combos : data.combos.slice(0, LIMIT);
+  html += `<h2>Round trips, cheapest first <small>${data.combos.length} pairing${data.combos.length === 1 ? "" : "s"}</small>
+    <a href="${esc(data.search_url)}" target="_blank" rel="noopener">Google Flights ↗</a></h2><div class="list">`;
+  if (!data.combos.length) {
+    html += `<div class="note">${data.status === "none" ? "No nonstop round trips found for these dates." : "No results yet."}</div>`;
+  }
+  for (const c of list) {
+    const o = byId[c.out], r = byId[c.ret];
+    if (!o || !r) continue;
+    const best = c.fare && c.fare.price === low;
+    html += `<a class="row combo${best ? " best" : ""}" href="${esc(c.booking_url)}" target="_blank" rel="noopener">
+      <div class="leg"><small>Out · ${outDay}</small><span class="times">${times(o)}</span></div>
+      <div class="leg back"><small>Back · ${backDay}</small><span class="times">${times(r)}</span></div>
+      <div class="price">${c.fare
+        ? `<strong>${money(c.fare.price)}</strong><span>${esc(c.airline)} ${esc(c.fare.name)}${best ? '<span class="tag">lowest</span>' : ""}</span>${c.basic_price && c.basic_price < c.fare.price ? `<span class="basic">Google lists ${money(c.basic_price)} for Basic</span>` : ""}`
+        : `<strong>—</strong><span>${esc(c.airline)} · ${c.fares_read ? "only Basic on sale" : "fare not shown"}</span>`}</div>
+    </a>`;
+  }
+  if (data.combos.length > LIMIT) {
+    html += `<button class="more" id="more">${showAll ? "Show fewer" : `Show all ${data.combos.length} pairings`}</button>`;
+  }
+  html += `</div>`;
+
+  const fromPrice = (id, key) => {
+    const p = priced.filter((c) => c[key] === id).map((c) => c.fare.price);
+    return p.length ? Math.min(...p) : null;
+  };
+  const legList = (flights, key, title, route) => {
+    let s = `<section><h2>${title} <small>${route} · ${flights.length} nonstop${flights.length === 1 ? "" : "s"}</small></h2><div class="list">`;
+    if (!flights.length) s += `<div class="note">None found.</div>`;
+    for (const f of flights) {
+      const p = fromPrice(f.id, key);
+      s += `<div class="row flight">
+        <div><div class="times">${times(f)}</div><div class="meta"><b>${esc(f.airline)}</b> · ${esc(f.duration)}</div></div>
+        <div class="price">${p ? `<span>round trip from</span><strong>${money(p)}</strong>` : `<span>no fare found</span>`}</div>
+      </div>`;
+    }
+    return s + `</div></section>`;
+  };
+  html += `<div class="legs">${legList(data.outbound, "out", `Going · ${outDay}`, "SFO → MEX")}${legList(data.return, "ret", `Returning · ${backDay}`, "MEX → SFO")}</div>`;
+
+  $("app").innerHTML = html;
+  const more = $("more");
+  if (more) more.onclick = () => { showAll = !showAll; render(); };
+}
+
+function updateStatus() {
+  const el = $("status");
+  const hours = (Date.now() - new Date(data.generated_at)) / 3.6e6;
+  // GitHub's scheduler runs late sometimes; two missed runs means something's wrong.
+  const stale = hours > data.refresh_hours * 2 + 0.5;
+  el.classList.toggle("stale", stale || data.status === "error");
+  el.textContent = `Checked ${ago(data.generated_at)}${stale ? " · refresh is overdue" : ""}`;
+}
+
+async function load() {
+  try {
+    const res = await fetch(`data.json?t=${Date.now()}`, { cache: "no-store" });
+    data = await res.json();
+    if (data.generated_at !== shown) render(); else updateStatus();
+  } catch (e) {
+    $("status").textContent = "Couldn't load flight data — retrying";
+    $("status").classList.add("stale");
+  }
+}
+$("status").addEventListener("click", load);
+document.addEventListener("visibilitychange", () => { if (!document.hidden) load(); });
+setInterval(load, 5 * 60 * 1000);
+setInterval(() => data && updateStatus(), 60 * 1000);
+load();
+</script>
+</body>
+</html>
