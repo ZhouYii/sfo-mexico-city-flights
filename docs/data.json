@@ -4,7 +4,7 @@
  "out_date": "2027-01-22",
  "return_date": "2027-01-31",
  "refresh_hours": 2,
- "generated_at": "2026-09-14T22:13:36+00:00",
+ "generated_at": "2026-09-15T04:43:31+00:00",
  "status": "ok",
  "search_url": "https://www.google.com/travel/flights/search?tfs=GhwSCjIwMjctMDEtMjIoAGoFEgNTRk9yBRIDTUVYGhwSCjIwMjctMDEtMzEoAGoFEgNNRVhyBRIDU0ZPQgEBSAGYAQE=&hl=en-US&curr=USD",
  "outbound": [
@@ -131,7 +131,7 @@
    "basic_price": 568,
    "google_list_price": 568,
    "fares_read": true,
-   "booking_url": "https://www.google.com/travel/flights/booking?tfs=CBwQAhpCEgoyMDI3LTAxLTIyIiAKA1NGTxIKMjAyNy0wMS0yMhoDTUVYKgJVQTIEMTI3MSgAagcIARIDU0ZPcgcIARIDTUVYGkESCjIwMjctMDEtMzEiHwoDTUVYEgoyMDI3LTAxLTMxGgNTRk8qAlVBMgM4MjIoAGoHCAESA01FWHIHCAESA1NGT0ABSAFwAYIBCwj___________8BmAEB&tfu=CmxDalJJWms5V1ZXZGZibkowVFVWQlFXeG5kR2RDUnkwdExTMHRMUzB0TFhCcVltZHBNMEZCUVVGQlIzRnZZMW93U0RNM2FIRkJFZ1ZWUVRneU1ob0xDTGk3QXhBQ0dnTlZVMFE0SEhDNHV3TT0SAggAIgA&hl=en-US&curr=USD"
+   "booking_url": "https://www.google.com/travel/flights/booking?tfs=CBwQAhpCEgoyMDI3LTAxLTIyIiAKA1NGTxIKMjAyNy0wMS0yMhoDTUVYKgJVQTIEMTI3MSgAagcIARIDU0ZPcgcIARIDTUVYGkESCjIwMjctMDEtMzEiHwoDTUVYEgoyMDI3LTAxLTMxGgNTRk8qAlVBMgM4MjIoAGoHCAESA01FWHIHCAESA1NGT0ABSAFwAYIBCwj___________8BmAEB&tfu=CmxDalJJY1dkWlpFVXhNMnM0WVdkQlFtVnhTbmRDUnkwdExTMHRMUzB0TFMxd1ptZ3hNRUZCUVVGQlIzRnZlbEZCUlhSS1JXdEJFZ1ZWUVRneU1ob0xDTGk3QXhBQ0dnTlZVMFE0SEhDNHV3TT0SAggAIgA&hl=en-US&curr=USD"
   },
   {
    "out": "1:14 PM|United",
@@ -172,7 +172,7 @@
    "basic_price": 568,
    "google_list_price": 568,
    "fares_read": true,
-   "booking_url": "https://www.google.com/travel/flights/booking?tfs=CBwQAhpBEgoyMDI3LTAxLTIyIh8KA1NGTxIKMjAyNy0wMS0yMhoDTUVYKgJVQTIDODE3KABqBwgBEgNTRk9yBwgBEgNNRVgaQRIKMjAyNy0wMS0zMSIfCgNNRVgSCjIwMjctMDEtMzEaA1NGTyoCVUEyAzgyMigAagcIARIDTUVYcgcIARIDU0ZPQAFIAXABggELCP___________wGYAQE&tfu=CmxDalJJVEd4RmFsZEpUMlZtTm5kQlFWVkpZbWRDUnkwdExTMHRMUzB0TFhCbWJHd3hPVUZCUVVGQlIzRnZZMkpOVGpGMlZWTkJFZ1ZWUVRneU1ob0xDTGk3QXhBQ0dnTlZVMFE0SEhDNHV3TT0SAggAIgA&hl=en-US&curr=USD"
+   "booking_url": "https://www.google.com/travel/flights/booking?tfs=CBwQAhpBEgoyMDI3LTAxLTIyIh8KA1NGTxIKMjAyNy0wMS0yMhoDTUVYKgJVQTIDODE3KABqBwgBEgNTRk9yBwgBEgNNRVgaQRIKMjAyNy0wMS0zMSIfCgNNRVgSCjIwMjctMDEtMzEaA1NGTyoCVUEyAzgyMigAagcIARIDTUVYcgcIARIDU0ZPQAFIAXABggELCP___________wGYAQE&tfu=CnBDalJJUkZkUmIycGxhbkZpZUZsQlEwdEZiMmRDUnkwdExTMHRMUzB0TFhCcVluQnRORUZCUVVGQlIzRnZlbEpWU2pGaWIxZEJFZ2RWUVRneU1pTXhHZ3NJdUxzREVBSWFBMVZUUkRnY2NMaTdBdz09EgIIACIA&hl=en-US&curr=USD"
   },
   {
    "out": "10:48 PM|United",
@@ -213,7 +213,7 @@
    "basic_price": 568,
    "google_list_price": 568,
    "fares_read": true,
-   "booking_url": "https://www.google.com/travel/flights/booking?tfs=CBwQAhpBEgoyMDI3LTAxLTIyIh8KA1NGTxIKMjAyNy0wMS0yMhoDTUVYKgJVQTIDNDEyKABqBwgBEgNTRk9yBwgBEgNNRVgaQRIKMjAyNy0wMS0zMSIfCgNNRVgSCjIwMjctMDEtMzEaA1NGTyoCVUEyAzgyMigAagcIARIDTUVYcgcIARIDU0ZPQAFIAXABggELCP___________wGYAQE&tfu=CmxDalJJU0ZKMWQxcHdORWhmWmtsQlFYVm5iV2RDUnkwdExTMHRMUzB0Y0dwaVltOHhOa0ZCUVVGQlIzRnZZMlJ6UWtNeVZXZEJFZ1ZWUVRneU1ob0xDTGk3QXhBQ0dnTlZVMFE0SEhDNHV3TT0SAggAIgA&hl=en-US&curr=USD"
+   "booking_url": "https://www.google.com/travel/flights/booking?tfs=CBwQAhpBEgoyMDI3LTAxLTIyIh8KA1NGTxIKMjAyNy0wMS0yMhoDTUVYKgJVQTIDNDEyKABqBwgBEgNTRk9yBwgBEgNNRVgaQRIKMjAyNy0wMS0zMSIfCgNNRVgSCjIwMjctMDEtMzEaA1NGTyoCVUEyAzgyMigAagcIARIDTUVYcgcIARIDU0ZPQAFIAXABggELCP___________wGYAQE&tfu=CmxDalJJYkZCV2QzWlZjVkZQU2pSQlFuRjJaMUZDUnkwdExTMHRMUzB0TFhCcVltUnpOVUZCUVVGQlIzRnZlbFpGU0RsNVUwTkJFZ1ZWUVRneU1ob0xDTGk3QXhBQ0dnTlZVMFE0SEhDNHV3TT0SAggAIgA&hl=en-US&curr=USD"
   },
   {
    "out": "1:35 PM|AeromexicoDelta",
@@ -237,24 +237,24 @@
     },
     {
      "seller": "Aeromexico",
-     "name": "Am Plus Clasica",
-     "price": 753
+     "name": "Flex",
+     "price": 763
     },
     {
      "seller": "Aeromexico",
-     "name": "Flex",
-     "price": 758
+     "name": "Am Plus Clasica",
+     "price": 763
     },
     {
      "seller": "Aeromexico",
      "name": "Am Plus Flex",
-     "price": 858
+     "price": 873
     }
    ],
    "basic_price": 573,
    "google_list_price": 573,
    "fares_read": true,
-   "booking_url": "https://www.google.com/travel/flights/booking?tfs=CBwQAhpBEgoyMDI3LTAxLTIyIh8KA1NGTxIKMjAyNy0wMS0yMhoDTUVYKgJBTTIDNjY5KABqBwgBEgNTRk9yBwgBEgNNRVgaQRIKMjAyNy0wMS0zMSIfCgNNRVgSCjIwMjctMDEtMzEaA1NGTyoCQU0yAzY2OCgAagcIARIDTUVYcgcIARIDU0ZPQAFIAXABggELCP___________wGYAQE&tfu=CnBDalJJU2xCTE5HSjRRbnBEWjAxQlFWRk1UbEZDUnkwdExTMHRMUzB0ZEd4bE9DMXVNVUZCUVVGQlIzRnZZMk5yUWsxWlZHdEJFZ2RCVFRZMk9DTXhHZ3NJckw4REVBSWFBMVZUUkRnY2NLeS9Bdz09EgIIACIDCgEw&hl=en-US&curr=USD"
+   "booking_url": "https://www.google.com/travel/flights/booking?tfs=CBwQAhpBEgoyMDI3LTAxLTIyIh8KA1NGTxIKMjAyNy0wMS0yMhoDTUVYKgJBTTIDNjY5KABqBwgBEgNTRk9yBwgBEgNNRVgaQRIKMjAyNy0wMS0zMSIfCgNNRVgSCjIwMjctMDEtMzEaA1NGTyoCQU0yAzY2OCgAagcIARIDTUVYcgcIARIDU0ZPQAFIAXABggELCP___________wGYAQE&tfu=CmxDalJJUkZkUmIycGxhbkZpZUZsQlEwdEpOSGRDUnkwdExTMHRMUzB0TFhCcVluQnRORUZCUVVGQlIzRnZlbE4zVFhCeFVFMUJFZ1ZCVFRZMk9Cb0xDS3kvQXhBQ0dnTlZVMFE0SEhDc3Z3TT0SAggAIgMKATA&hl=en-US&curr=USD"
   },
   {
    "out": "10:30 PM|AeromexicoDelta",
@@ -263,39 +263,39 @@
    "fare": {
     "seller": "Aeromexico",
     "name": "Basic",
-    "price": 592
+    "price": 573
    },
    "fares": [
     {
      "seller": "Aeromexico",
      "name": "Basic",
-     "price": 592
+     "price": 573
     },
     {
      "seller": "Aeromexico",
      "name": "Classic",
-     "price": 712
-    },
-    {
-     "seller": "Aeromexico",
-     "name": "Am Plus Clasica",
-     "price": 772
+     "price": 693
     },
     {
      "seller": "Aeromexico",
      "name": "Flex",
-     "price": 782
+     "price": 763
+    },
+    {
+     "seller": "Aeromexico",
+     "name": "Am Plus Clasica",
+     "price": 763
     },
     {
      "seller": "Aeromexico",
      "name": "Am Plus Flex",
-     "price": 882
+     "price": 873
     }
    ],
-   "basic_price": 592,
-   "google_list_price": 592,
+   "basic_price": 573,
+   "google_list_price": 573,
    "fares_read": true,
-   "booking_url": "https://www.google.com/travel/flights/booking?tfs=CBwQAhpBEgoyMDI3LTAxLTIyIh8KA1NGTxIKMjAyNy0wMS0yMhoDTUVYKgJBTTIDNjY1KABqBwgBEgNTRk9yBwgBEgNNRVgaQRIKMjAyNy0wMS0zMSIfCgNNRVgSCjIwMjctMDEtMzEaA1NGTyoCQU0yAzY2OCgAagcIARIDTUVYcgcIARIDU0ZPQAFIAXABggELCP___________wGYAQE&tfu=CmxDalJJUkZkUmIycGxhbkZpZUZsQlFUTkNaVUZDUnkwdExTMHRMUzB0TFhCcVluQnRORUZCUVVGQlIzRnZZMlpGUW1SSGNtVkJFZ1ZCVFRZMk9Cb0xDSmpPQXhBQ0dnTlZVMFE0SEhDWXpnTT0SAggAIgMKATA&hl=en-US&curr=USD"
+   "booking_url": "https://www.google.com/travel/flights/booking?tfs=CBwQAhpBEgoyMDI3LTAxLTIyIh8KA1NGTxIKMjAyNy0wMS0yMhoDTUVYKgJBTTIDNjY1KABqBwgBEgNTRk9yBwgBEgNNRVgaQRIKMjAyNy0wMS0zMSIfCgNNRVgSCjIwMjctMDEtMzEaA1NGTyoCQU0yAzY2OCgAagcIARIDTUVYcgcIARIDU0ZPQAFIAXABggELCP___________wGYAQE&tfu=CnBDalJJU0ZKMWQxcHdORWhmWmtsQlFuZDNXVUZDUnkwdExTMHRMUzB0Y0dwaVltOHhOa0ZCUVVGQlIzRnZlbGR6UW1Od1gybEJFZ2RCVFRZMk9DTXhHZ3NJckw4REVBSWFBMVZUUkRnY2NLeS9Bdz09EgIIACIDCgEw&hl=en-US&curr=USD"
   },
   {
    "out": "10:45 AM|United",
@@ -336,7 +336,7 @@
    "basic_price": 627,
    "google_list_price": 627,
    "fares_read": true,
-   "booking_url": "https://www.google.com/travel/flights/booking?tfs=CBwQAhpCEgoyMDI3LTAxLTIyIiAKA1NGTxIKMjAyNy0wMS0yMhoDTUVYKgJVQTIEMTI3MSgAagcIARIDU0ZPcgcIARIDTUVYGkESCjIwMjctMDEtMzEiHwoDTUVYEgoyMDI3LTAxLTMxGgNTRk8qAlVBMgM3MTgoAGoHCAESA01FWHIHCAESA1NGT0ABSAFwAYIBCwj___________8BmAEB&tfu=CnBDalJJY2t4R1kwcEhWMHd5U1VWQlFXdERZV2RDUnkwdExTMHRMUzB0TFhCcWJtY3hNVUZCUVVGQlIzRnZZMkZSU0dWM1JUSkJFZ2RWUVRjeE9DTXhHZ3NJeE9rREVBSWFBMVZUUkRnY2NNVHBBdz09EgIIACIA&hl=en-US&curr=USD"
+   "booking_url": "https://www.google.com/travel/flights/booking?tfs=CBwQAhpCEgoyMDI3LTAxLTIyIiAKA1NGTxIKMjAyNy0wMS0yMhoDTUVYKgJVQTIEMTI3MSgAagcIARIDU0ZPcgcIARIDTUVYGkESCjIwMjctMDEtMzEiHwoDTUVYEgoyMDI3LTAxLTMxGgNTRk8qAlVBMgM3MTgoAGoHCAESA01FWHIHCAESA1NGT0ABSAFwAYIBCwj___________8BmAEB&tfu=CmxDalJJVDJabVlUVXdXRmxJWTBWQlFqZFZNM2RDUnkwdExTMHRMUzB0TFhCcVltOWpNMEZCUVVGQlIzRnZlbEZWVGpsSlMwRkJFZ1ZWUVRjeE9Cb0xDTVRwQXhBQ0dnTlZVMFE0SEhERTZRTT0SAggAIgA&hl=en-US&curr=USD"
   },
   {
    "out": "10:45 AM|United",
@@ -377,7 +377,7 @@
    "basic_price": 627,
    "google_list_price": 627,
    "fares_read": true,
-   "booking_url": "https://www.google.com/travel/flights/booking?tfs=CBwQAhpCEgoyMDI3LTAxLTIyIiAKA1NGTxIKMjAyNy0wMS0yMhoDTUVYKgJVQTIEMTI3MSgAagcIARIDU0ZPcgcIARIDTUVYGkISCjIwMjctMDEtMzEiIAoDTUVYEgoyMDI3LTAxLTMxGgNTRk8qAlVBMgQxMjcyKABqBwgBEgNNRVhyBwgBEgNTRk9AAUgBcAGCAQsI____________AZgBAQ&tfu=CnBDalJJYjFrMlVHRm5ZVVpYVlc5QlFYQkpRMmRDUnkwdExTMHRMUzB0Y0dwaWFtOHlNMEZCUVVGQlIzRnZZMkZyUjJrM1IwdEJFZ2hWUVRFeU56SWpNUm9MQ01UcEF4QUNHZ05WVTBRNEhIREU2UU09EgIIACIDCgEx&hl=en-US&curr=USD"
+   "booking_url": "https://www.google.com/travel/flights/booking?tfs=CBwQAhpCEgoyMDI3LTAxLTIyIiAKA1NGTxIKMjAyNy0wMS0yMhoDTUVYKgJVQTIEMTI3MSgAagcIARIDU0ZPcgcIARIDTUVYGkISCjIwMjctMDEtMzEiIAoDTUVYEgoyMDI3LTAxLTMxGgNTRk8qAlVBMgQxMjcyKABqBwgBEgNNRVhyBwgBEgNTRk9AAUgBcAGCAQsI____________AZgBAQ&tfu=CnBDalJJZG1SWGRYSXlZMXAzTkdkQlFreFpOVUZDUnkwdExTMHRMUzB0Y0daaWJITTBPVUZCUVVGQlIzRnZlbEZ2VEV4M1YxbEJFZ2hWUVRFeU56SWpNUm9MQ01UcEF4QUNHZ05WVTBRNEhIREU2UU09EgIIACIDCgEx&hl=en-US&curr=USD"
   },
   {
    "out": "1:14 PM|United",
@@ -418,7 +418,7 @@
    "basic_price": 627,
    "google_list_price": 627,
    "fares_read": true,
-   "booking_url": "https://www.google.com/travel/flights/booking?tfs=CBwQAhpBEgoyMDI3LTAxLTIyIh8KA1NGTxIKMjAyNy0wMS0yMhoDTUVYKgJVQTIDODE3KABqBwgBEgNTRk9yBwgBEgNNRVgaQRIKMjAyNy0wMS0zMSIfCgNNRVgSCjIwMjctMDEtMzEaA1NGTyoCVUEyAzcxOCgAagcIARIDTUVYcgcIARIDU0ZPQAFIAXABggELCP___________wGYAQE&tfu=CnBDalJJTVdka2NVbE5Sa0ZoWDI5QlFVMU9aRUZDUnkwdExTMHRMUzB0Y0daaVoyb3lOa0ZCUVVGQlIzRnZZMkp2UTJWeWN6SkJFZ2RWUVRjeE9DTXhHZ3NJeE9rREVBSWFBMVZUUkRnY2NNVHBBdz09EgIIACIA&hl=en-US&curr=USD"
+   "booking_url": "https://www.google.com/travel/flights/booking?tfs=CBwQAhpBEgoyMDI3LTAxLTIyIh8KA1NGTxIKMjAyNy0wMS0yMhoDTUVYKgJVQTIDODE3KABqBwgBEgNTRk9yBwgBEgNNRVgaQRIKMjAyNy0wMS0zMSIfCgNNRVgSCjIwMjctMDEtMzEaA1NGTyoCVUEyAzcxOCgAagcIARIDTUVYcgcIARIDU0ZPQAFIAXABggELCP___________wGYAQE&tfu=CnBDalJJTmxGSGMzbEtNMmRPY25kQlFrNVJWM2RDUnkwdExTMHRMUzB0TFhCbWIya3hORUZCUVVGQlIzRnZlbEp6U25WeGVFOUJFZ2RWUVRjeE9DTXhHZ3NJeE9rREVBSWFBMVZUUkRnY2NNVHBBdz09EgIIACIA&hl=en-US&curr=USD"
   },
   {
    "out": "1:14 PM|United",
@@ -459,7 +459,7 @@
    "basic_price": 627,
    "google_list_price": 627,
    "fares_read": true,
-   "booking_url": "https://www.google.com/travel/flights/booking?tfs=CBwQAhpBEgoyMDI3LTAxLTIyIh8KA1NGTxIKMjAyNy0wMS0yMhoDTUVYKgJVQTIDODE3KABqBwgBEgNTRk9yBwgBEgNNRVgaQhIKMjAyNy0wMS0zMSIgCgNNRVgSCjIwMjctMDEtMzEaA1NGTyoCVUEyBDEyNzIoAGoHCAESA01FWHIHCAESA1NGT0ABSAFwAYIBCwj___________8BmAEB&tfu=CmxDalJJTVdka2NVbE5Sa0ZoWDI5QlFVMVBaMEZDUnkwdExTMHRMUzB0Y0daaVoyb3lOa0ZCUVVGQlIzRnZZMkk0UlcxdVUxTkJFZ1pWUVRFeU56SWFDd2pFNlFNUUFob0RWVk5FT0J4d3hPa0QSAggAIgMKATE&hl=en-US&curr=USD"
+   "booking_url": "https://www.google.com/travel/flights/booking?tfs=CBwQAhpBEgoyMDI3LTAxLTIyIh8KA1NGTxIKMjAyNy0wMS0yMhoDTUVYKgJVQTIDODE3KABqBwgBEgNTRk9yBwgBEgNNRVgaQhIKMjAyNy0wMS0zMSIgCgNNRVgSCjIwMjctMDEtMzEaA1NGTyoCVUEyBDEyNzIoAGoHCAESA01FWHIHCAESA1NGT0ABSAFwAYIBCwj___________8BmAEB&tfu=CnBDalJJYlRWMGMyWnZXa0p1YjJOQlFuQkdWM2RDUnkwdExTMHRMUzB0TFhCbVlteG5PVUZCUVVGQlIzRnZlbE5GVERFd0xXZEJFZ2hWUVRFeU56SWpNUm9MQ01UcEF4QUNHZ05WVTBRNEhIREU2UU09EgIIACIDCgEx&hl=en-US&curr=USD"
   },
   {
    "out": "10:48 PM|United",
@@ -500,7 +500,7 @@
    "basic_price": 627,
    "google_list_price": 627,
    "fares_read": true,
-   "booking_url": "https://www.google.com/travel/flights/booking?tfs=CBwQAhpBEgoyMDI3LTAxLTIyIh8KA1NGTxIKMjAyNy0wMS0yMhoDTUVYKgJVQTIDNDEyKABqBwgBEgNTRk9yBwgBEgNNRVgaQRIKMjAyNy0wMS0zMSIfCgNNRVgSCjIwMjctMDEtMzEaA1NGTyoCVUEyAzcxOCgAagcIARIDTUVYcgcIARIDU0ZPQAFIAXABggELCP___________wGYAQE&tfu=CnBDalJJWms5V1ZXZGZibkowVFVWQlFXeHpaVkZDUnkwdExTMHRMUzB0TFhCcVltZHBNMEZCUVVGQlIzRnZZMlZGUlZCNFVDMUJFZ2RWUVRjeE9DTXhHZ3NJeE9rREVBSWFBMVZUUkRnY2NNVHBBdz09EgIIACIA&hl=en-US&curr=USD"
+   "booking_url": "https://www.google.com/travel/flights/booking?tfs=CBwQAhpBEgoyMDI3LTAxLTIyIh8KA1NGTxIKMjAyNy0wMS0yMhoDTUVYKgJVQTIDNDEyKABqBwgBEgNTRk9yBwgBEgNNRVgaQRIKMjAyNy0wMS0zMSIfCgNNRVgSCjIwMjctMDEtMzEaA1NGTyoCVUEyAzcxOCgAagcIARIDTUVYcgcIARIDU0ZPQAFIAXABggELCP___________wGYAQE&tfu=CnBDalJJWjBWU1F6bFBURE5aYm10QlFtaGZNa0ZDUnkwdExTMHRMUzB0TFhCbVlteDFORUZCUVVGQlIzRnZlbFpyUTBnd2RqaEJFZ2RWUVRjeE9DTXhHZ3NJeE9rREVBSWFBMVZUUkRnY2NNVHBBdz09EgIIACIA&hl=en-US&curr=USD"
   },
   {
    "out": "10:48 PM|United",
@@ -541,7 +541,7 @@
    "basic_price": 627,
    "google_list_price": 627,
    "fares_read": true,
-   "booking_url": "https://www.google.com/travel/flights/booking?tfs=CBwQAhpBEgoyMDI3LTAxLTIyIh8KA1NGTxIKMjAyNy0wMS0yMhoDTUVYKgJVQTIDNDEyKABqBwgBEgNTRk9yBwgBEgNNRVgaQhIKMjAyNy0wMS0zMSIgCgNNRVgSCjIwMjctMDEtMzEaA1NGTyoCVUEyBDEyNzIoAGoHCAESA01FWHIHCAESA1NGT0ABSAFwAYIBCwj___________8BmAEB&tfu=CnBDalJJV0V3dE5FbENUSFY0UlZsQlFWQlVkV2RDUnkwdExTMHRMUzB0ZEd4NU55MXVNa0ZCUVVGQlIzRnZZMlZaVEMxcE9XTkJFZ2hWUVRFeU56SWpNUm9MQ01UcEF4QUNHZ05WVTBRNEhIREU2UU09EgIIACIDCgEx&hl=en-US&curr=USD"
+   "booking_url": "https://www.google.com/travel/flights/booking?tfs=CBwQAhpBEgoyMDI3LTAxLTIyIh8KA1NGTxIKMjAyNy0wMS0yMhoDTUVYKgJVQTIDNDEyKABqBwgBEgNTRk9yBwgBEgNNRVgaQhIKMjAyNy0wMS0zMSIgCgNNRVgSCjIwMjctMDEtMzEaA1NGTyoCVUEyBDEyNzIoAGoHCAESA01FWHIHCAESA1NGT0ABSAFwAYIBCwj___________8BmAEB&tfu=CnBDalJJU214UWNubFVWR1pJVkUxQlFsUnlVVUZDUnkwdExTMHRMWEJtYm00eE1DMXVNVUZCUVVGQlIzRnZlbFk0VDBWcE9IVkJFZ2hWUVRFeU56SWpNUm9MQ01UcEF4QUNHZ05WVTBRNEhIREU2UU09EgIIACIDCgEx&hl=en-US&curr=USD"
   },
   {
    "out": "1:35 PM|AeromexicoDelta",
@@ -560,59 +560,18 @@
     },
     {
      "seller": "Aeromexico",
-     "name": "Am Plus Clasica",
-     "price": 753
-    },
-    {
-     "seller": "Aeromexico",
      "name": "Flex",
-     "price": 758
-    },
-    {
-     "seller": "Aeromexico",
-     "name": "Am Plus Flex",
-     "price": 858
-    },
-    {
-     "seller": "Aeromexico",
-     "name": "Premier Clasica",
-     "price": 1113
-    }
-   ],
-   "basic_price": null,
-   "google_list_price": 693,
-   "fares_read": true,
-   "booking_url": "https://www.google.com/travel/flights/booking?tfs=CBwQAhpBEgoyMDI3LTAxLTIyIh8KA1NGTxIKMjAyNy0wMS0yMhoDTUVYKgJBTTIDNjY5KABqBwgBEgNTRk9yBwgBEgNNRVgaQRIKMjAyNy0wMS0zMSIfCgNNRVgSCjIwMjctMDEtMzEaA1NGTyoCQU0yAzY2NCgAagcIARIDTUVYcgcIARIDU0ZPQAFIAXABggELCP___________wGYAQE&tfu=CnBDalJJTFY5dlJrZEhkalF0UWxWQlFWTlpka0ZDUnkwdExTMHRMWEJtWm1veE9TMXVNa0ZCUVVGQlIzRnZZMk00U0hsdmJWRkJFZ2RCVFRZMk5DTXhHZ3NJakowRUVBSWFBMVZUUkRnY2NJeWRCQT09EgIIACIDCgEw&hl=en-US&curr=USD"
-  },
-  {
-   "out": "10:30 PM|AeromexicoDelta",
-   "ret": "4:55 PM|AeromexicoDelta",
-   "airline": "Aeromexico",
-   "fare": {
-    "seller": "Aeromexico",
-    "name": "Classic",
-    "price": 712
-   },
-   "fares": [
-    {
-     "seller": "Aeromexico",
-     "name": "Classic",
-     "price": 712
+     "price": 763
     },
     {
      "seller": "Aeromexico",
      "name": "Am Plus Clasica",
-     "price": 772
-    },
-    {
-     "seller": "Aeromexico",
-     "name": "Flex",
-     "price": 782
+     "price": 763
     },
     {
      "seller": "Aeromexico",
      "name": "Am Plus Flex",
-     "price": 882
+     "price": 873
     },
     {
      "seller": "Aeromexico",
@@ -621,10 +580,54 @@
     }
    ],
    "basic_price": null,
-   "google_list_price": 712,
+   "google_list_price": 693,
    "fares_read": true,
-   "booking_url": "https://www.google.com/travel/flights/booking?tfs=CBwQAhpBEgoyMDI3LTAxLTIyIh8KA1NGTxIKMjAyNy0wMS0yMhoDTUVYKgJBTTIDNjY1KABqBwgBEgNTRk9yBwgBEgNNRVgaQRIKMjAyNy0wMS0zMSIfCgNNRVgSCjIwMjctMDEtMzEaA1NGTyoCQU0yAzY2NCgAagcIARIDTUVYcgcIARIDU0ZPQAFIAXABggELCP___________wGYAQE&tfu=CnBDalJJY2t4R1kwcEhWMHd5U1VWQlFXdFRWRUZDUnkwdExTMHRMUzB0TFhCcWJtY3hNVUZCUVVGQlIzRnZZMlkwUW1aSGNUUkJFZ2RCVFRZMk5DTXhHZ3NJK0tzRUVBSWFBMVZUUkRnY2NQaXJCQT09EgIIACIDCgEw&hl=en-US&curr=USD"
+   "booking_url": "https://www.google.com/travel/flights/booking?tfs=CBwQAhpBEgoyMDI3LTAxLTIyIh8KA1NGTxIKMjAyNy0wMS0yMhoDTUVYKgJBTTIDNjY5KABqBwgBEgNTRk9yBwgBEgNNRVgaQRIKMjAyNy0wMS0zMSIfCgNNRVgSCjIwMjctMDEtMzEaA1NGTyoCQU0yAzY2NCgAagcIARIDTUVYcgcIARIDU0ZPQAFIAXABggELCP___________wGYAQE&tfu=CnBDalJJYkZCV2QzWlZjVkZQU2pSQlFuRnliVkZDUnkwdExTMHRMUzB0TFhCcVltUnpOVUZCUVVGQlIzRnZlbFJ6VDFGUGIxTkJFZ2RCVFRZMk5DTXhHZ3NJakowRUVBSWFBMVZUUkRnY2NJeWRCQT09EgIIACIDCgEw&hl=en-US&curr=USD"
+  },
+  {
+   "out": "10:30 PM|AeromexicoDelta",
+   "ret": "4:55 PM|AeromexicoDelta",
+   "airline": "Aeromexico",
+   "fare": {
+    "seller": "Aeromexico",
+    "name": "Classic",
+    "price": 693
+   },
+   "fares": [
+    {
+     "seller": "Aeromexico",
+     "name": "Classic",
+     "price": 693
+    },
+    {
+     "seller": "Aeromexico",
+     "name": "Flex",
+     "price": 763
+    },
+    {
+     "seller": "Aeromexico",
+     "name": "Am Plus Clasica",
+     "price": 763
+    },
+    {
+     "seller": "Aeromexico",
+     "name": "Am Plus Flex",
+     "price": 873
+    },
+    {
+     "seller": "Aeromexico",
+     "name": "Premier Clasica",
+     "price": 1132
+    }
+   ],
+   "basic_price": null,
+   "google_list_price": 693,
+   "fares_read": true,
+   "booking_url": "https://www.google.com/travel/flights/booking?tfs=CBwQAhpBEgoyMDI3LTAxLTIyIh8KA1NGTxIKMjAyNy0wMS0yMhoDTUVYKgJBTTIDNjY1KABqBwgBEgNTRk9yBwgBEgNNRVgaQRIKMjAyNy0wMS0zMSIfCgNNRVgSCjIwMjctMDEtMzEaA1NGTyoCQU0yAzY2NCgAagcIARIDTUVYcgcIARIDU0ZPQAFIAXABggELCP___________wGYAQE&tfu=CnBDalJJTFY5dlJrZEhkalF0UWxWQlFsbDVNMEZDUnkwdExTMHRMWEJtWm1veE9TMXVNa0ZCUVVGQlIzRnZlbGhSUkdZdGNDMUJFZ2RCVFRZMk5DTXhHZ3NJakowRUVBSWFBMVZUUkRnY2NJeWRCQT09EgIIACIDCgEw&hl=en-US&curr=USD"
   }
  ],
- "last_success_at": "2026-09-14T22:13:36+00:00"
+ "last_success_at": "2026-09-15T04:43:31+00:00",
+ "alert_below": 500,
+ "deals": [],
+ "last_alert": null
 }

@@ -22,10 +22,12 @@ from __future__ import annotations
 
 import argparse
 import json
+import os
 import random
 import re
 import sys
 import time
+import urllib.request
 from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 
@@ -35,6 +37,14 @@ from playwright.sync_api import sync_playwright
 ORIGIN, DEST = "SFO", "MEX"
 OUT_DATE, RETURN_DATE = date(2027, 1, 22), date(2027, 1, 31)
 REFRESH_HOURS = 2
+# Raise the alarm when any round trip (per adult) costs less than this.
+ALERT_BELOW_USD = 500
+# A repeat alarm is held back this long unless the fare drops further.
+ALERT_REPEAT_HOURS = 12
+# Phone alerts go through ntfy.sh. The topic name is the only thing guarding the
+# channel and this repo is public, so it lives in the NTFY_TOPIC secret (Actions)
+# or a file outside the repo (local runs) - never in the code.
+NTFY_TOPIC_FILE = Path.home() / ".flightbot" / "sfo-mex-ntfy-topic.txt"
 OUT = Path(__file__).parent / "docs" / "data.json"
 
 UA = ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
@@ -287,10 +297,65 @@ def scrape(page) -> dict:
             "return": flights(returns), "combos": combos}
 
 
+def push(title: str, message: str, click: str | None = None) -> bool:
+    """Send a phone notification. Returns False, loudly, if it can't."""
+    topic = os.environ.get("NTFY_TOPIC", "").strip()
+    if not topic and NTFY_TOPIC_FILE.exists():
+        topic = NTFY_TOPIC_FILE.read_text("utf-8").strip()
+    if not topic:
+        print("ALERT NOT SENT: no NTFY_TOPIC configured", file=sys.stderr)
+        return False
+    # HTTP headers must be plain ASCII; the message body can be anything.
+    headers = {"Title": title.encode("ascii", "replace").decode(),
+               "Priority": "high", "Tags": "airplane,moneybag"}
+    if click:
+        headers["Click"] = click
+    req = urllib.request.Request(f"https://ntfy.sh/{topic}", data=message.encode("utf-8"),
+                                 headers=headers, method="POST")
+    try:
+        with urllib.request.urlopen(req, timeout=20) as res:
+            return res.status == 200
+    except Exception as exc:  # noqa: BLE001 - a failed alert must not fail the run
+        print(f"ALERT NOT SENT: {exc}", file=sys.stderr)
+        return False
+
+
+def maybe_alert(data: dict, previous: dict, now: datetime) -> None:
+    """Push when a fare is under the line - once, then again only if it drops
+    further or the last alert is ALERT_REPEAT_HOURS old."""
+    data["last_alert"] = previous.get("last_alert")
+    deals = data["deals"]
+    if not deals:
+        return
+    best = deals[0]
+    last = data["last_alert"] or {}
+    if last and best["fare"]["price"] >= last["price"] and \
+            now - datetime.fromisoformat(last["at"]) < timedelta(hours=ALERT_REPEAT_HOURS):
+        return
+    lines = [f"${c['fare']['price']} {c['airline']} {c['fare']['name']}: "
+             f"out {c['out'].split('|')[0]}, back {c['ret'].split('|')[0]}" for c in deals[:5]]
+    if len(deals) > 5:
+        lines.append(f"+{len(deals) - 5} more on the page")
+    title = f"SFO-Mexico City round trip ${best['fare']['price']} (under ${ALERT_BELOW_USD})"
+    message = "Jan 22 -> Jan 31, per adult, nonstop:\n" + "\n".join(lines)
+    if push(title, message, best["booking_url"]):
+        data["last_alert"] = {"price": best["fare"]["price"], "at": now.isoformat(timespec="seconds")}
+        print(f"alert sent: {title}")
+
+
 def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--headed", action="store_true")
+    ap.add_argument("--test-alert", action="store_true", help="send a test push and exit")
     args = ap.parse_args()
+
+    if args.test_alert:
+        ok = push("Test: SFO-Mexico City fare alarm",
+                  f"Alerts are working. You'll get one when a Jan 22 -> Jan 31 nonstop "
+                  f"round trip drops below ${ALERT_BELOW_USD} per adult.",
+                  "https://zhouyii.github.io/sfo-mexico-city-flights/")
+        print("test alert sent" if ok else "test alert FAILED")
+        return 0 if ok else 1
 
     now = datetime.now(timezone.utc)
     stamp = now.isoformat(timespec="seconds")
@@ -322,6 +387,12 @@ def main() -> int:
         data = {"outbound": [], "return": [], "combos": [], "search_url": search_url()} \
             | previous | base | {"status": "error", "error": str(exc)[:200]}
         code = 1
+
+    # Only fares from this run can trigger it; stale ones from a failed run can't.
+    data["alert_below"] = ALERT_BELOW_USD
+    data["deals"] = [] if data["status"] != "ok" else [
+        c for c in data["combos"] if c["fare"] and c["fare"]["price"] < ALERT_BELOW_USD]
+    maybe_alert(data, previous, now)
 
     OUT.parent.mkdir(parents=True, exist_ok=True)
     OUT.write_text(json.dumps(data, indent=1), encoding="utf-8")

@@ -67,6 +67,8 @@ a.row:hover { background: color-mix(in srgb, var(--accent-soft) 45%, transparent
 .meta b { color: var(--ink); font-weight: 550; }
 
 .note { padding: 14px 16px; color: var(--muted); }
+.banner.deal { background: var(--accent-soft); color: var(--accent); font-weight: 600; }
+.watch { margin: 14px 0 0; color: var(--muted); font-size: 13px; }
 .banner { margin-top: 18px; padding: 10px 14px; border-radius: 10px; background: var(--warn-soft); color: var(--warn); font-size: 14px; }
 footer { margin-top: 40px; color: var(--muted); font-size: 13px; }
 footer p { margin: 6px 0; }
@@ -122,6 +124,13 @@ function render() {
 
   if (data.status === "error") {
     html += `<div class="banner">The last search failed (${esc(data.error)}). ${data.last_success_at ? `Showing results from ${ago(data.last_success_at)}.` : "It retries every 2 hours."}</div>`;
+  }
+
+  if (data.alert_below) {
+    const deals = data.deals || [];
+    html += deals.length
+      ? `<div class="banner deal">🔔 ${deals.length} round trip${deals.length === 1 ? "" : "s"} under ${money(data.alert_below)} right now — cheapest ${money(deals[0].fare.price)} on ${esc(deals[0].airline)}.</div>`
+      : `<p class="watch">Alarm set: you'll be alerted if any round trip drops below ${money(data.alert_below)}.</p>`;
   }
 
   const LIMIT = 6;

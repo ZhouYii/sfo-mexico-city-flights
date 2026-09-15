@@ -28,3 +28,15 @@ then `python scrape.py` (add `--headed` to watch).
 
 Run now instead of waiting: Actions tab → Refresh flights → Run workflow, or
 `gh workflow run refresh.yml`. To stop it: `gh workflow disable refresh.yml`.
+
+## Fare alarm
+
+When any round trip is under `ALERT_BELOW_USD` ($500 per adult), the run sends a
+phone push through [ntfy](https://ntfy.sh) and the page shows a banner. It pushes
+once, then again only if the fare drops further or 12 hours pass
+(`ALERT_REPEAT_HOURS`); the last alert is remembered in `data.json`.
+
+The ntfy topic name is effectively the password for that channel and this repo is
+public, so it is **not** in the code: Actions reads the `NTFY_TOPIC` secret, local
+runs read `~/.flightbot/sfo-mex-ntfy-topic.txt`. Subscribe to that topic in the
+ntfy app. `python scrape.py --test-alert` sends a test push.
