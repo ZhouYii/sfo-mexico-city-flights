@@ -4,18 +4,10 @@
  "out_date": "2027-01-22",
  "return_date": "2027-01-31",
  "refresh_hours": 2,
- "generated_at": "2026-09-15T04:43:31+00:00",
+ "generated_at": "2026-09-19T07:56:46+00:00",
  "status": "ok",
  "search_url": "https://www.google.com/travel/flights/search?tfs=GhwSCjIwMjctMDEtMjIoAGoFEgNTRk9yBRIDTUVYGhwSCjIwMjctMDEtMzEoAGoFEgNNRVhyBRIDU0ZPQgEBSAGYAQE=&hl=en-US&curr=USD",
  "outbound": [
-  {
-   "id": "10:45 AM|United",
-   "depart": "10:45 AM",
-   "arrive": "5:05 PM",
-   "arrive_day_offset": 0,
-   "duration": "4 hr 20 min",
-   "airline": "United"
-  },
   {
    "id": "1:14 PM|United",
    "depart": "1:14 PM",
@@ -51,22 +43,6 @@
  ],
  "return": [
   {
-   "id": "5:45 AM|United",
-   "depart": "5:45 AM",
-   "arrive": "8:44 AM",
-   "arrive_day_offset": 0,
-   "duration": "4 hr 59 min",
-   "airline": "United"
-  },
-  {
-   "id": "8:45 AM|AeromexicoDelta",
-   "depart": "8:45 AM",
-   "arrive": "11:51 AM",
-   "arrive_day_offset": 0,
-   "duration": "5 hr 6 min",
-   "airline": "Aeromexico"
-  },
-  {
    "id": "1:50 PM|United",
    "depart": "1:50 PM",
    "arrive": "4:44 PM",
@@ -75,11 +51,11 @@
    "airline": "United"
   },
   {
-   "id": "4:55 PM|AeromexicoDelta",
+   "id": "4:55 PM|Separate tickets",
    "depart": "4:55 PM",
    "arrive": "7:59 PM",
    "arrive_day_offset": 0,
-   "duration": "5 hr 4 min",
+   "duration": "AeromexicoDelta",
    "airline": "Aeromexico"
   },
   {
@@ -89,544 +65,287 @@
    "arrive_day_offset": 0,
    "duration": "4 hr 52 min",
    "airline": "United"
+  },
+  {
+   "id": "6:10 PM|Separate tickets",
+   "depart": "6:10 PM",
+   "arrive": "9:02 PM",
+   "arrive_day_offset": 0,
+   "duration": "United",
+   "airline": "Separate tickets"
   }
  ],
  "combos": [
   {
-   "out": "10:45 AM|United",
-   "ret": "5:45 AM|United",
-   "airline": "United",
-   "fare": {
-    "seller": "United",
-    "name": "Basic Economy",
-    "price": 568
-   },
-   "fares": [
-    {
-     "seller": "United",
-     "name": "Basic Economy",
-     "price": 568
-    },
-    {
-     "seller": "United",
-     "name": "Economy",
-     "price": 668
-    },
-    {
-     "seller": "United",
-     "name": "Economy Fully Refundable",
-     "price": 932
-    },
-    {
-     "seller": "United",
-     "name": "Economy Plus",
-     "price": 1004
-    },
-    {
-     "seller": "United",
-     "name": "First",
-     "price": 1212
-    }
-   ],
-   "basic_price": 568,
-   "google_list_price": 568,
-   "fares_read": true,
-   "booking_url": "https://www.google.com/travel/flights/booking?tfs=CBwQAhpCEgoyMDI3LTAxLTIyIiAKA1NGTxIKMjAyNy0wMS0yMhoDTUVYKgJVQTIEMTI3MSgAagcIARIDU0ZPcgcIARIDTUVYGkESCjIwMjctMDEtMzEiHwoDTUVYEgoyMDI3LTAxLTMxGgNTRk8qAlVBMgM4MjIoAGoHCAESA01FWHIHCAESA1NGT0ABSAFwAYIBCwj___________8BmAEB&tfu=CmxDalJJY1dkWlpFVXhNMnM0WVdkQlFtVnhTbmRDUnkwdExTMHRMUzB0TFMxd1ptZ3hNRUZCUVVGQlIzRnZlbEZCUlhSS1JXdEJFZ1ZWUVRneU1ob0xDTGk3QXhBQ0dnTlZVMFE0SEhDNHV3TT0SAggAIgA&hl=en-US&curr=USD"
-  },
-  {
    "out": "1:14 PM|United",
-   "ret": "5:45 AM|United",
+   "ret": "1:50 PM|United",
    "airline": "United",
    "fare": {
     "seller": "United",
     "name": "Basic Economy",
-    "price": 568
+    "price": 582
    },
    "fares": [
     {
      "seller": "United",
      "name": "Basic Economy",
-     "price": 568
+     "price": 582
     },
     {
      "seller": "United",
      "name": "Economy",
-     "price": 668
+     "price": 702
     },
     {
      "seller": "United",
      "name": "Economy Fully Refundable",
-     "price": 932
+     "price": 967
     },
     {
      "seller": "United",
      "name": "Economy Plus",
-     "price": 1004
+     "price": 1013
     },
     {
      "seller": "United",
      "name": "First",
-     "price": 1212
+     "price": 1331
     }
    ],
-   "basic_price": 568,
-   "google_list_price": 568,
+   "basic_price": 582,
+   "google_list_price": 582,
    "fares_read": true,
-   "booking_url": "https://www.google.com/travel/flights/booking?tfs=CBwQAhpBEgoyMDI3LTAxLTIyIh8KA1NGTxIKMjAyNy0wMS0yMhoDTUVYKgJVQTIDODE3KABqBwgBEgNTRk9yBwgBEgNNRVgaQRIKMjAyNy0wMS0zMSIfCgNNRVgSCjIwMjctMDEtMzEaA1NGTyoCVUEyAzgyMigAagcIARIDTUVYcgcIARIDU0ZPQAFIAXABggELCP___________wGYAQE&tfu=CnBDalJJUkZkUmIycGxhbkZpZUZsQlEwdEZiMmRDUnkwdExTMHRMUzB0TFhCcVluQnRORUZCUVVGQlIzRnZlbEpWU2pGaWIxZEJFZ2RWUVRneU1pTXhHZ3NJdUxzREVBSWFBMVZUUkRnY2NMaTdBdz09EgIIACIA&hl=en-US&curr=USD"
+   "booking_url": "https://www.google.com/travel/flights/booking?tfs=CBwQAhpBEgoyMDI3LTAxLTIyIh8KA1NGTxIKMjAyNy0wMS0yMhoDTUVYKgJVQTIDODE3KABqBwgBEgNTRk9yBwgBEgNNRVgaQRIKMjAyNy0wMS0zMSIfCgNNRVgSCjIwMjctMDEtMzEaA1NGTyoCVUEyAzcxOCgAagcIARIDTUVYcgcIARIDU0ZPQAFIAXABggELCP___________wGYAQE&tfu=CmxDalJJTFdKM2QzZFBlRUo2U0hkQlJYZGlWbWRDUnkwdExTMHRMUzB0Y0dwaVpYWXhNMEZCUVVGQlIzRjFVVVZaUkhKd01sTkJFZ1ZWUVRjeE9Cb0xDTERHQXhBQ0dnTlZVMFE0SEhDd3hnTT0SAggAIgA&hl=en-US&curr=USD"
   },
   {
    "out": "10:48 PM|United",
-   "ret": "5:45 AM|United",
+   "ret": "1:50 PM|United",
    "airline": "United",
    "fare": {
     "seller": "United",
     "name": "Basic Economy",
-    "price": 568
+    "price": 582
    },
    "fares": [
     {
      "seller": "United",
      "name": "Basic Economy",
-     "price": 568
+     "price": 582
     },
     {
      "seller": "United",
      "name": "Economy",
-     "price": 668
+     "price": 702
     },
     {
      "seller": "United",
      "name": "Economy Fully Refundable",
-     "price": 932
+     "price": 967
     },
     {
      "seller": "United",
      "name": "Economy Plus",
-     "price": 1004
+     "price": 1013
     },
     {
      "seller": "United",
      "name": "First",
-     "price": 1212
+     "price": 1331
     }
    ],
-   "basic_price": 568,
-   "google_list_price": 568,
+   "basic_price": 582,
+   "google_list_price": 582,
    "fares_read": true,
-   "booking_url": "https://www.google.com/travel/flights/booking?tfs=CBwQAhpBEgoyMDI3LTAxLTIyIh8KA1NGTxIKMjAyNy0wMS0yMhoDTUVYKgJVQTIDNDEyKABqBwgBEgNTRk9yBwgBEgNNRVgaQRIKMjAyNy0wMS0zMSIfCgNNRVgSCjIwMjctMDEtMzEaA1NGTyoCVUEyAzgyMigAagcIARIDTUVYcgcIARIDU0ZPQAFIAXABggELCP___________wGYAQE&tfu=CmxDalJJYkZCV2QzWlZjVkZQU2pSQlFuRjJaMUZDUnkwdExTMHRMUzB0TFhCcVltUnpOVUZCUVVGQlIzRnZlbFpGU0RsNVUwTkJFZ1ZWUVRneU1ob0xDTGk3QXhBQ0dnTlZVMFE0SEhDNHV3TT0SAggAIgA&hl=en-US&curr=USD"
+   "booking_url": "https://www.google.com/travel/flights/booking?tfs=CBwQAhpBEgoyMDI3LTAxLTIyIh8KA1NGTxIKMjAyNy0wMS0yMhoDTUVYKgJVQTIDNDEyKABqBwgBEgNTRk9yBwgBEgNNRVgaQRIKMjAyNy0wMS0zMSIfCgNNRVgSCjIwMjctMDEtMzEaA1NGTyoCVUEyAzcxOCgAagcIARIDTUVYcgcIARIDU0ZPQAFIAXABggELCP___________wGYAQE&tfu=CnBDalJJVkZwT2NVb3lSRWg0TW1OQlFWaHdOV2RDUnkwdExTMHRMUzB0TFhCcVltUjVOVUZCUVVGQlIzRjFVVWswUkY5U01VZEJFZ2RWUVRjeE9DTXhHZ3NJc01ZREVBSWFBMVZUUkRnY2NMREdBdz09EgIIACIA&hl=en-US&curr=USD"
+  },
+  {
+   "out": "1:14 PM|United",
+   "ret": "6:10 PM|United",
+   "airline": "United",
+   "fare": {
+    "seller": "United",
+    "name": "Basic Economy",
+    "price": 592
+   },
+   "fares": [
+    {
+     "seller": "United",
+     "name": "Basic Economy",
+     "price": 592
+    },
+    {
+     "seller": "United",
+     "name": "Economy",
+     "price": 712
+    },
+    {
+     "seller": "United",
+     "name": "Economy Fully Refundable",
+     "price": 977
+    },
+    {
+     "seller": "United",
+     "name": "Economy Plus",
+     "price": 1023
+    },
+    {
+     "seller": "United",
+     "name": "First",
+     "price": 1252
+    }
+   ],
+   "basic_price": 592,
+   "google_list_price": 592,
+   "fares_read": true,
+   "booking_url": "https://www.google.com/travel/flights/booking?tfs=CBwQAhpBEgoyMDI3LTAxLTIyIh8KA1NGTxIKMjAyNy0wMS0yMhoDTUVYKgJVQTIDODE3KABqBwgBEgNTRk9yBwgBEgNNRVgaQhIKMjAyNy0wMS0zMSIgCgNNRVgSCjIwMjctMDEtMzEaA1NGTyoCVUEyBDEyNzIoAGoHCAESA01FWHIHCAESA1NGT0ABSAFwAYIBCwj___________8BmAEB&tfu=CnBDalJJVUdKWmEweGhkamcxVUZWQlJYRnphMEZDUnkwdExTMHRMUzB0TFhCcWVYVXhOa0ZCUVVGQlIzRjFVVVpGVFhWVFowbEJFZ2hWUVRFeU56SWpNUm9MQ0pqT0F4QUNHZ05WVTBRNEhIQ1l6Z009EgIIACIA&hl=en-US&curr=USD"
+  },
+  {
+   "out": "10:48 PM|United",
+   "ret": "6:10 PM|United",
+   "airline": "United",
+   "fare": {
+    "seller": "United",
+    "name": "Basic Economy",
+    "price": 592
+   },
+   "fares": [
+    {
+     "seller": "United",
+     "name": "Basic Economy",
+     "price": 592
+    },
+    {
+     "seller": "United",
+     "name": "Economy",
+     "price": 712
+    },
+    {
+     "seller": "United",
+     "name": "Economy Fully Refundable",
+     "price": 977
+    },
+    {
+     "seller": "United",
+     "name": "Economy Plus",
+     "price": 1023
+    },
+    {
+     "seller": "United",
+     "name": "First",
+     "price": 1252
+    }
+   ],
+   "basic_price": 592,
+   "google_list_price": 592,
+   "fares_read": true,
+   "booking_url": "https://www.google.com/travel/flights/booking?tfs=CBwQAhpBEgoyMDI3LTAxLTIyIh8KA1NGTxIKMjAyNy0wMS0yMhoDTUVYKgJVQTIDNDEyKABqBwgBEgNTRk9yBwgBEgNNRVgaQhIKMjAyNy0wMS0zMSIgCgNNRVgSCjIwMjctMDEtMzEaA1NGTyoCVUEyBDEyNzIoAGoHCAESA01FWHIHCAESA1NGT0ABSAFwAYIBCwj___________8BmAEB&tfu=CnBDalJJVkZwT2NVb3lSRWg0TW1OQlFWaHlSR2RDUnkwdExTMHRMUzB0TFhCcVltUjVOVUZCUVVGQlIzRjFVVXBaUVc5SE9VdEJFZ2hWUVRFeU56SWpNUm9MQ0pqT0F4QUNHZ05WVTBRNEhIQ1l6Z009EgIIACIA&hl=en-US&curr=USD"
   },
   {
    "out": "1:35 PM|AeromexicoDelta",
-   "ret": "8:45 AM|AeromexicoDelta",
-   "airline": "Aeromexico",
-   "fare": {
-    "seller": "Aeromexico",
-    "name": "Basic",
-    "price": 573
-   },
-   "fares": [
-    {
-     "seller": "Aeromexico",
-     "name": "Basic",
-     "price": 573
-    },
-    {
-     "seller": "Aeromexico",
-     "name": "Classic",
-     "price": 693
-    },
-    {
-     "seller": "Aeromexico",
-     "name": "Flex",
-     "price": 763
-    },
-    {
-     "seller": "Aeromexico",
-     "name": "Am Plus Clasica",
-     "price": 763
-    },
-    {
-     "seller": "Aeromexico",
-     "name": "Am Plus Flex",
-     "price": 873
-    }
-   ],
-   "basic_price": 573,
-   "google_list_price": 573,
-   "fares_read": true,
-   "booking_url": "https://www.google.com/travel/flights/booking?tfs=CBwQAhpBEgoyMDI3LTAxLTIyIh8KA1NGTxIKMjAyNy0wMS0yMhoDTUVYKgJBTTIDNjY5KABqBwgBEgNTRk9yBwgBEgNNRVgaQRIKMjAyNy0wMS0zMSIfCgNNRVgSCjIwMjctMDEtMzEaA1NGTyoCQU0yAzY2OCgAagcIARIDTUVYcgcIARIDU0ZPQAFIAXABggELCP___________wGYAQE&tfu=CmxDalJJUkZkUmIycGxhbkZpZUZsQlEwdEpOSGRDUnkwdExTMHRMUzB0TFhCcVluQnRORUZCUVVGQlIzRnZlbE4zVFhCeFVFMUJFZ1ZCVFRZMk9Cb0xDS3kvQXhBQ0dnTlZVMFE0SEhDc3Z3TT0SAggAIgMKATA&hl=en-US&curr=USD"
-  },
-  {
-   "out": "10:30 PM|AeromexicoDelta",
-   "ret": "8:45 AM|AeromexicoDelta",
-   "airline": "Aeromexico",
-   "fare": {
-    "seller": "Aeromexico",
-    "name": "Basic",
-    "price": 573
-   },
-   "fares": [
-    {
-     "seller": "Aeromexico",
-     "name": "Basic",
-     "price": 573
-    },
-    {
-     "seller": "Aeromexico",
-     "name": "Classic",
-     "price": 693
-    },
-    {
-     "seller": "Aeromexico",
-     "name": "Flex",
-     "price": 763
-    },
-    {
-     "seller": "Aeromexico",
-     "name": "Am Plus Clasica",
-     "price": 763
-    },
-    {
-     "seller": "Aeromexico",
-     "name": "Am Plus Flex",
-     "price": 873
-    }
-   ],
-   "basic_price": 573,
-   "google_list_price": 573,
-   "fares_read": true,
-   "booking_url": "https://www.google.com/travel/flights/booking?tfs=CBwQAhpBEgoyMDI3LTAxLTIyIh8KA1NGTxIKMjAyNy0wMS0yMhoDTUVYKgJBTTIDNjY1KABqBwgBEgNTRk9yBwgBEgNNRVgaQRIKMjAyNy0wMS0zMSIfCgNNRVgSCjIwMjctMDEtMzEaA1NGTyoCQU0yAzY2OCgAagcIARIDTUVYcgcIARIDU0ZPQAFIAXABggELCP___________wGYAQE&tfu=CnBDalJJU0ZKMWQxcHdORWhmWmtsQlFuZDNXVUZDUnkwdExTMHRMUzB0Y0dwaVltOHhOa0ZCUVVGQlIzRnZlbGR6UW1Od1gybEJFZ2RCVFRZMk9DTXhHZ3NJckw4REVBSWFBMVZUUkRnY2NLeS9Bdz09EgIIACIDCgEw&hl=en-US&curr=USD"
-  },
-  {
-   "out": "10:45 AM|United",
-   "ret": "1:50 PM|United",
-   "airline": "United",
-   "fare": {
-    "seller": "United",
-    "name": "Basic Economy",
-    "price": 627
-   },
-   "fares": [
-    {
-     "seller": "United",
-     "name": "Basic Economy",
-     "price": 627
-    },
-    {
-     "seller": "United",
-     "name": "Economy",
-     "price": 727
-    },
-    {
-     "seller": "United",
-     "name": "Economy Fully Refundable",
-     "price": 932
-    },
-    {
-     "seller": "United",
-     "name": "Economy Plus",
-     "price": 1048
-    },
-    {
-     "seller": "United",
-     "name": "First",
-     "price": 1331
-    }
-   ],
-   "basic_price": 627,
-   "google_list_price": 627,
-   "fares_read": true,
-   "booking_url": "https://www.google.com/travel/flights/booking?tfs=CBwQAhpCEgoyMDI3LTAxLTIyIiAKA1NGTxIKMjAyNy0wMS0yMhoDTUVYKgJVQTIEMTI3MSgAagcIARIDU0ZPcgcIARIDTUVYGkESCjIwMjctMDEtMzEiHwoDTUVYEgoyMDI3LTAxLTMxGgNTRk8qAlVBMgM3MTgoAGoHCAESA01FWHIHCAESA1NGT0ABSAFwAYIBCwj___________8BmAEB&tfu=CmxDalJJVDJabVlUVXdXRmxJWTBWQlFqZFZNM2RDUnkwdExTMHRMUzB0TFhCcVltOWpNMEZCUVVGQlIzRnZlbEZWVGpsSlMwRkJFZ1ZWUVRjeE9Cb0xDTVRwQXhBQ0dnTlZVMFE0SEhERTZRTT0SAggAIgA&hl=en-US&curr=USD"
-  },
-  {
-   "out": "10:45 AM|United",
-   "ret": "6:10 PM|United",
-   "airline": "United",
-   "fare": {
-    "seller": "United",
-    "name": "Basic Economy",
-    "price": 627
-   },
-   "fares": [
-    {
-     "seller": "United",
-     "name": "Basic Economy",
-     "price": 627
-    },
-    {
-     "seller": "United",
-     "name": "Economy",
-     "price": 727
-    },
-    {
-     "seller": "United",
-     "name": "Economy Fully Refundable",
-     "price": 932
-    },
-    {
-     "seller": "United",
-     "name": "Economy Plus",
-     "price": 1048
-    },
-    {
-     "seller": "United",
-     "name": "First",
-     "price": 1252
-    }
-   ],
-   "basic_price": 627,
-   "google_list_price": 627,
-   "fares_read": true,
-   "booking_url": "https://www.google.com/travel/flights/booking?tfs=CBwQAhpCEgoyMDI3LTAxLTIyIiAKA1NGTxIKMjAyNy0wMS0yMhoDTUVYKgJVQTIEMTI3MSgAagcIARIDU0ZPcgcIARIDTUVYGkISCjIwMjctMDEtMzEiIAoDTUVYEgoyMDI3LTAxLTMxGgNTRk8qAlVBMgQxMjcyKABqBwgBEgNNRVhyBwgBEgNTRk9AAUgBcAGCAQsI____________AZgBAQ&tfu=CnBDalJJZG1SWGRYSXlZMXAzTkdkQlFreFpOVUZDUnkwdExTMHRMUzB0Y0daaWJITTBPVUZCUVVGQlIzRnZlbEZ2VEV4M1YxbEJFZ2hWUVRFeU56SWpNUm9MQ01UcEF4QUNHZ05WVTBRNEhIREU2UU09EgIIACIDCgEx&hl=en-US&curr=USD"
-  },
-  {
-   "out": "1:14 PM|United",
-   "ret": "1:50 PM|United",
-   "airline": "United",
-   "fare": {
-    "seller": "United",
-    "name": "Basic Economy",
-    "price": 627
-   },
-   "fares": [
-    {
-     "seller": "United",
-     "name": "Basic Economy",
-     "price": 627
-    },
-    {
-     "seller": "United",
-     "name": "Economy",
-     "price": 727
-    },
-    {
-     "seller": "United",
-     "name": "Economy Fully Refundable",
-     "price": 932
-    },
-    {
-     "seller": "United",
-     "name": "Economy Plus",
-     "price": 1048
-    },
-    {
-     "seller": "United",
-     "name": "First",
-     "price": 1331
-    }
-   ],
-   "basic_price": 627,
-   "google_list_price": 627,
-   "fares_read": true,
-   "booking_url": "https://www.google.com/travel/flights/booking?tfs=CBwQAhpBEgoyMDI3LTAxLTIyIh8KA1NGTxIKMjAyNy0wMS0yMhoDTUVYKgJVQTIDODE3KABqBwgBEgNTRk9yBwgBEgNNRVgaQRIKMjAyNy0wMS0zMSIfCgNNRVgSCjIwMjctMDEtMzEaA1NGTyoCVUEyAzcxOCgAagcIARIDTUVYcgcIARIDU0ZPQAFIAXABggELCP___________wGYAQE&tfu=CnBDalJJTmxGSGMzbEtNMmRPY25kQlFrNVJWM2RDUnkwdExTMHRMUzB0TFhCbWIya3hORUZCUVVGQlIzRnZlbEp6U25WeGVFOUJFZ2RWUVRjeE9DTXhHZ3NJeE9rREVBSWFBMVZUUkRnY2NNVHBBdz09EgIIACIA&hl=en-US&curr=USD"
-  },
-  {
-   "out": "1:14 PM|United",
-   "ret": "6:10 PM|United",
-   "airline": "United",
-   "fare": {
-    "seller": "United",
-    "name": "Basic Economy",
-    "price": 627
-   },
-   "fares": [
-    {
-     "seller": "United",
-     "name": "Basic Economy",
-     "price": 627
-    },
-    {
-     "seller": "United",
-     "name": "Economy",
-     "price": 727
-    },
-    {
-     "seller": "United",
-     "name": "Economy Fully Refundable",
-     "price": 932
-    },
-    {
-     "seller": "United",
-     "name": "Economy Plus",
-     "price": 1048
-    },
-    {
-     "seller": "United",
-     "name": "First",
-     "price": 1252
-    }
-   ],
-   "basic_price": 627,
-   "google_list_price": 627,
-   "fares_read": true,
-   "booking_url": "https://www.google.com/travel/flights/booking?tfs=CBwQAhpBEgoyMDI3LTAxLTIyIh8KA1NGTxIKMjAyNy0wMS0yMhoDTUVYKgJVQTIDODE3KABqBwgBEgNTRk9yBwgBEgNNRVgaQhIKMjAyNy0wMS0zMSIgCgNNRVgSCjIwMjctMDEtMzEaA1NGTyoCVUEyBDEyNzIoAGoHCAESA01FWHIHCAESA1NGT0ABSAFwAYIBCwj___________8BmAEB&tfu=CnBDalJJYlRWMGMyWnZXa0p1YjJOQlFuQkdWM2RDUnkwdExTMHRMUzB0TFhCbVlteG5PVUZCUVVGQlIzRnZlbE5GVERFd0xXZEJFZ2hWUVRFeU56SWpNUm9MQ01UcEF4QUNHZ05WVTBRNEhIREU2UU09EgIIACIDCgEx&hl=en-US&curr=USD"
-  },
-  {
-   "out": "10:48 PM|United",
-   "ret": "1:50 PM|United",
-   "airline": "United",
-   "fare": {
-    "seller": "United",
-    "name": "Basic Economy",
-    "price": 627
-   },
-   "fares": [
-    {
-     "seller": "United",
-     "name": "Basic Economy",
-     "price": 627
-    },
-    {
-     "seller": "United",
-     "name": "Economy",
-     "price": 727
-    },
-    {
-     "seller": "United",
-     "name": "Economy Fully Refundable",
-     "price": 932
-    },
-    {
-     "seller": "United",
-     "name": "Economy Plus",
-     "price": 1048
-    },
-    {
-     "seller": "United",
-     "name": "First",
-     "price": 1331
-    }
-   ],
-   "basic_price": 627,
-   "google_list_price": 627,
-   "fares_read": true,
-   "booking_url": "https://www.google.com/travel/flights/booking?tfs=CBwQAhpBEgoyMDI3LTAxLTIyIh8KA1NGTxIKMjAyNy0wMS0yMhoDTUVYKgJVQTIDNDEyKABqBwgBEgNTRk9yBwgBEgNNRVgaQRIKMjAyNy0wMS0zMSIfCgNNRVgSCjIwMjctMDEtMzEaA1NGTyoCVUEyAzcxOCgAagcIARIDTUVYcgcIARIDU0ZPQAFIAXABggELCP___________wGYAQE&tfu=CnBDalJJWjBWU1F6bFBURE5aYm10QlFtaGZNa0ZDUnkwdExTMHRMUzB0TFhCbVlteDFORUZCUVVGQlIzRnZlbFpyUTBnd2RqaEJFZ2RWUVRjeE9DTXhHZ3NJeE9rREVBSWFBMVZUUkRnY2NNVHBBdz09EgIIACIA&hl=en-US&curr=USD"
-  },
-  {
-   "out": "10:48 PM|United",
-   "ret": "6:10 PM|United",
-   "airline": "United",
-   "fare": {
-    "seller": "United",
-    "name": "Basic Economy",
-    "price": 627
-   },
-   "fares": [
-    {
-     "seller": "United",
-     "name": "Basic Economy",
-     "price": 627
-    },
-    {
-     "seller": "United",
-     "name": "Economy",
-     "price": 727
-    },
-    {
-     "seller": "United",
-     "name": "Economy Fully Refundable",
-     "price": 932
-    },
-    {
-     "seller": "United",
-     "name": "Economy Plus",
-     "price": 1048
-    },
-    {
-     "seller": "United",
-     "name": "First",
-     "price": 1252
-    }
-   ],
-   "basic_price": 627,
-   "google_list_price": 627,
-   "fares_read": true,
-   "booking_url": "https://www.google.com/travel/flights/booking?tfs=CBwQAhpBEgoyMDI3LTAxLTIyIh8KA1NGTxIKMjAyNy0wMS0yMhoDTUVYKgJVQTIDNDEyKABqBwgBEgNTRk9yBwgBEgNNRVgaQhIKMjAyNy0wMS0zMSIgCgNNRVgSCjIwMjctMDEtMzEaA1NGTyoCVUEyBDEyNzIoAGoHCAESA01FWHIHCAESA1NGT0ABSAFwAYIBCwj___________8BmAEB&tfu=CnBDalJJU214UWNubFVWR1pJVkUxQlFsUnlVVUZDUnkwdExTMHRMWEJtYm00eE1DMXVNVUZCUVVGQlIzRnZlbFk0VDBWcE9IVkJFZ2hWUVRFeU56SWpNUm9MQ01UcEF4QUNHZ05WVTBRNEhIREU2UU09EgIIACIDCgEx&hl=en-US&curr=USD"
-  },
-  {
-   "out": "1:35 PM|AeromexicoDelta",
-   "ret": "4:55 PM|AeromexicoDelta",
+   "ret": "4:55 PM|Separate tickets",
    "airline": "Aeromexico",
    "fare": {
     "seller": "Aeromexico",
     "name": "Classic",
-    "price": 693
+    "price": 703
    },
    "fares": [
     {
      "seller": "Aeromexico",
      "name": "Classic",
-     "price": 693
+     "price": 703
     },
     {
      "seller": "Aeromexico",
      "name": "Flex",
-     "price": 763
+     "price": 773
     },
     {
      "seller": "Aeromexico",
      "name": "Am Plus Clasica",
-     "price": 763
+     "price": 783
     },
     {
      "seller": "Aeromexico",
      "name": "Am Plus Flex",
-     "price": 873
+     "price": 893
     },
     {
      "seller": "Aeromexico",
      "name": "Premier Clasica",
-     "price": 1132
+     "price": 1203
     }
    ],
    "basic_price": null,
-   "google_list_price": 693,
+   "google_list_price": 645,
    "fares_read": true,
-   "booking_url": "https://www.google.com/travel/flights/booking?tfs=CBwQAhpBEgoyMDI3LTAxLTIyIh8KA1NGTxIKMjAyNy0wMS0yMhoDTUVYKgJBTTIDNjY5KABqBwgBEgNTRk9yBwgBEgNNRVgaQRIKMjAyNy0wMS0zMSIfCgNNRVgSCjIwMjctMDEtMzEaA1NGTyoCQU0yAzY2NCgAagcIARIDTUVYcgcIARIDU0ZPQAFIAXABggELCP___________wGYAQE&tfu=CnBDalJJYkZCV2QzWlZjVkZQU2pSQlFuRnliVkZDUnkwdExTMHRMUzB0TFhCcVltUnpOVUZCUVVGQlIzRnZlbFJ6VDFGUGIxTkJFZ2RCVFRZMk5DTXhHZ3NJakowRUVBSWFBMVZUUkRnY2NJeWRCQT09EgIIACIDCgEw&hl=en-US&curr=USD"
+   "booking_url": "https://www.google.com/travel/flights/booking?tfs=CBwQAhpBEgoyMDI3LTAxLTIyIh8KA1NGTxIKMjAyNy0wMS0yMhoDTUVYKgJBTTIDNjY5KABqBwgBEgNTRk9yBwgBEgNNRVgaQRIKMjAyNy0wMS0zMSIfCgNNRVgSCjIwMjctMDEtMzEaA1NGTyoCQU0yAzY2NCgAagcIARIDTUVYcgcIARIDU0ZPQAFIAXABggELCP___________wGYAQE&tfu=CmxDalJJTFdKM2QzZFBlRUo2U0hkQlJYZG1WSGRDUnkwdExTMHRMUzB0Y0dwaVpYWXhNMEZCUVVGQlIzRjFVVVk0VDJZM1l6UkJFZ1ZCVFRZMk5Cb0xDUFQzQXhBQ0dnTlZVMFE0SEhEMDl3TT0SAggAIgYKATAKATE&hl=en-US&curr=USD"
   },
   {
    "out": "10:30 PM|AeromexicoDelta",
-   "ret": "4:55 PM|AeromexicoDelta",
+   "ret": "4:55 PM|Separate tickets",
    "airline": "Aeromexico",
    "fare": {
     "seller": "Aeromexico",
     "name": "Classic",
-    "price": 693
+    "price": 703
    },
    "fares": [
     {
      "seller": "Aeromexico",
      "name": "Classic",
-     "price": 693
+     "price": 703
     },
     {
      "seller": "Aeromexico",
      "name": "Flex",
-     "price": 763
+     "price": 773
     },
     {
      "seller": "Aeromexico",
      "name": "Am Plus Clasica",
-     "price": 763
+     "price": 783
     },
     {
      "seller": "Aeromexico",
      "name": "Am Plus Flex",
-     "price": 873
+     "price": 893
     },
     {
      "seller": "Aeromexico",
      "name": "Premier Clasica",
-     "price": 1132
+     "price": 1203
     }
    ],
    "basic_price": null,
-   "google_list_price": 693,
+   "google_list_price": 645,
    "fares_read": true,
-   "booking_url": "https://www.google.com/travel/flights/booking?tfs=CBwQAhpBEgoyMDI3LTAxLTIyIh8KA1NGTxIKMjAyNy0wMS0yMhoDTUVYKgJBTTIDNjY1KABqBwgBEgNTRk9yBwgBEgNNRVgaQRIKMjAyNy0wMS0zMSIfCgNNRVgSCjIwMjctMDEtMzEaA1NGTyoCQU0yAzY2NCgAagcIARIDTUVYcgcIARIDU0ZPQAFIAXABggELCP___________wGYAQE&tfu=CnBDalJJTFY5dlJrZEhkalF0UWxWQlFsbDVNMEZDUnkwdExTMHRMWEJtWm1veE9TMXVNa0ZCUVVGQlIzRnZlbGhSUkdZdGNDMUJFZ2RCVFRZMk5DTXhHZ3NJakowRUVBSWFBMVZUUkRnY2NJeWRCQT09EgIIACIDCgEw&hl=en-US&curr=USD"
+   "booking_url": "https://www.google.com/travel/flights/booking?tfs=CBwQAhpBEgoyMDI3LTAxLTIyIh8KA1NGTxIKMjAyNy0wMS0yMhoDTUVYKgJBTTIDNjY1KABqBwgBEgNTRk9yBwgBEgNNRVgaQRIKMjAyNy0wMS0zMSIfCgNNRVgSCjIwMjctMDEtMzEaA1NGTyoCQU0yAzY2NCgAagcIARIDTUVYcgcIARIDU0ZPQAFIAXABggELCP___________wGYAQE&tfu=CmxDalJJYUhkelZIWXhjVlZwYkRSQlJqWTBZMEZDUnkwdExTMHRMUzB0Y0dwaWJXVXhNMEZCUVVGQlIzRjFVVXROUlZOcFJWbEJFZ1ZCVFRZMk5Cb0xDUFQzQXhBQ0dnTlZVMFE0SEhEMDl3TT0SAggAIgYKATAKATE&hl=en-US&curr=USD"
+  },
+  {
+   "out": "1:35 PM|AeromexicoDelta",
+   "ret": "6:10 PM|Separate tickets",
+   "airline": "Aeromexico \u00b7 Delta",
+   "fare": null,
+   "fares": [],
+   "basic_price": null,
+   "google_list_price": 727,
+   "fares_read": false,
+   "booking_url": "https://www.google.com/travel/flights/booking?tfs=CBwQAhpBEgoyMDI3LTAxLTIyIh8KA1NGTxIKMjAyNy0wMS0yMhoDTUVYKgJBTTIDNjY5KABqBwgBEgNTRk9yBwgBEgNNRVgaQhIKMjAyNy0wMS0zMSIgCgNNRVgSCjIwMjctMDEtMzEaA1NGTyoCVUEyBDEyNzIoAGoHCAESA01FWHIHCAESA1NGT0ABSAFwAYIBCwj___________8BmAEB&tfu=CmxDalJJZGxoSFNGWmhabTlOVDJOQlExSm5iRkZDUnkwdExTMHRMUzB0TFhCbVltVm9OVUZCUVVGQlIzRjFVVWR6VDFwYVlTMUJFZ1pWUVRFeU56SWFDd2o4dHdRUUFob0RWVk5FT0J4dy9MY0USAggAIgMKATA&hl=en-US&curr=USD"
+  },
+  {
+   "out": "10:30 PM|AeromexicoDelta",
+   "ret": "6:10 PM|Separate tickets",
+   "airline": "Aeromexico \u00b7 Delta",
+   "fare": null,
+   "fares": [],
+   "basic_price": null,
+   "google_list_price": 727,
+   "fares_read": false,
+   "booking_url": "https://www.google.com/travel/flights/booking?tfs=CBwQAhpBEgoyMDI3LTAxLTIyIh8KA1NGTxIKMjAyNy0wMS0yMhoDTUVYKgJBTTIDNjY1KABqBwgBEgNTRk9yBwgBEgNNRVgaQhIKMjAyNy0wMS0zMSIgCgNNRVgSCjIwMjctMDEtMzEaA1NGTyoCVUEyBDEyNzIoAGoHCAESA01FWHIHCAESA1NGT0ABSAFwAYIBCwj___________8BmAEB&tfu=CmxDalJJVkVwV09HdHNibFpuTm05QlJUTlphMEZDUnkwdExTMHRMUzB0TFMxd2FuUjNORUZCUVVGQlIzRjFVVXhCVDNGSmFIZEJFZ1pWUVRFeU56SWFDd2o4dHdRUUFob0RWVk5FT0J4dy9MY0USAggAIgMKATA&hl=en-US&curr=USD"
   }
  ],
- "last_success_at": "2026-09-15T04:43:31+00:00",
+ "last_success_at": "2026-09-19T07:56:46+00:00",
  "alert_below": 500,
  "deals": [],
  "last_alert": null
